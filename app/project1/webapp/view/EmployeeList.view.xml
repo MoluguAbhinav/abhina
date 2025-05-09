@@ -1,0 +1,20 @@
+<mvc:View
+  controllerName="project1.controller.EmployeeList"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m">
+  
+   
+      <Page id="_IDGenPage" title="Employee List">
+        <content>
+          <List id="employeeList" items="{mainModel>/Employees}">
+            <StandardListItem id="_IDGenStandardListItem"
+              title="{mainModel>Name}"
+              description="{mainModel>Department}"
+              type="Navigation"
+              press=".onEmployeePress" />
+          </List>
+        </content>
+      </Page>
+    
+  
+</mvc:View>
