@@ -5,11 +5,11 @@
   <Page id="_IDGenPage2" title="Employee Details">
     <content>
       <VBox id="_IDGenVBox">
-        <Text id="_IDGenText" text="Employee ID: {EmployeeID}" />
-        <Text id="_IDGenText1" text="Name: {Name}" />
-        <Text id="_IDGenText2" text="Department: {Department}" />
-        <Text id="_IDGenText3" text="Salary: {Salary}" />
-        <Text id="_IDGenText4" text="Age: {Age}" />
+        <Text id="_IDGenText" text="Employee ID: {mainModel>EmployeeID}" />
+        <Text id="_IDGenText1" text="Name: {mainModel>Name}" />
+        <Text id="_IDGenText2" text="Department: {mainModel>Department}" />
+        <Text id="_IDGenText3" text="Salary: {mainModel>Salary}" />
+        <Text id="_IDGenText4" text="Age: {mainModel>Age}" />
       </VBox>
     </content>
   </Page>
