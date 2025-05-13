@@ -1,6 +1,6 @@
-EmployeeID,Name,Department,Salary,Age
-E001,John Doe,HR,55000,30
-E002,Jane Smith,IT,70000,28
-E003,Robert Brown,Finance,60000,35
-E004,Alice Johnson,IT,72000,32
-E005,Tom Clark,HR,53000,29
+EmployeeID,Name,Department,Salary,Age,Role,Experience,Work_Location,Performance,Image_URL,Project_Name,Manager,Client_Name,Team_Lead_Name,Salary_Grade,Contact,MailID,Address,About,LinkedIn
+E001,John Doe,HR,55000,30,HR Manager,5,New York,Excellent,http://example.com/img1.jpg,Project Alpha,Alice Johnson,Client A,Robert Brown,A,1234567890,john.doe@example.com,123 Main St,John is a dedicated HR Manager with a focus on team building,http://linkedin.com/in/johndoe
+E002,Jane Smith,IT,70000,28,Software Engineer,6,San Francisco,Very Good,http://example.com/img2.jpg,Project Beta,Tom Clark,Client B,Jane Smith,B,0987654321,jane.smith@example.com,456 Oak Ave,Jane is known for her innovative solutions in IT,http://linkedin.com/in/janesmith
+E003,Robert Brown,Finance,60000,35,Finance Analyst,8,Chicago,Good,http://example.com/img3.jpg,Project Gamma,Jane Smith,Client C,Tom Clark,C,1122334455,robert.brown@example.com,789 Pine Rd,Robert excels in budget analysis and financial planning,http://linkedin.com/in/robertbrown
+E004,Alice Johnson,IT,72000,32,Lead Developer,7,Boston,Excellent,http://example.com/img4.jpg,Project Delta,Robert Brown,Client D,Alice Johnson,A,2233445566,alice.johnson@example.com,321 Elm St,Alice is a technical leader with expertise in software development,http://linkedin.com/in/alicejohnson
+E005,Tom Clark,HR,53000,29,Recruiter,4,Dallas,Good,http://example.com/img5.jpg,Project Epsilon,John Doe,Client E,Jane Smith,B,3344556677,tom.clark@example.com,654 Maple Blvd,Tom specializes in talent acquisition and employee relations,http://linkedin.com/in/tomclark
